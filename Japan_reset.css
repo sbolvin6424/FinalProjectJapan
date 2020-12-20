@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*
+    ITD 110 section 002N Fall 2020
+    Final Web Project - State/Country Website
+    Japan
+    Author: Stan Bolvin
+    Date:   11/15/2020
+   
+   filename:   Japan_reset.css
+    This file is the stylesheet for the Final Project-Japan.
+*/
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+}
+
+address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+em,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+ol,
+p,
+section,
+span,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
+}

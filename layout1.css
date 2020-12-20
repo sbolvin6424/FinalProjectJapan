@@ -1,0 +1,196 @@
+@charset "utf-8";
+/*
+    ITD 110 section 002N Fall 2020
+    Final Web Project - State/Country Website
+    Japan
+    Author: Stan Bolvin
+    Date:   11/15/2020
+
+    filename:   layout1.css
+    This file is the stylesheet for the Final Project-Japan.
+*/
+
+/* HTML and Body Styles */
+html {
+    background: linear-gradient(330deg, red, yellow);
+    background-repeat: no-repeat;
+}
+
+body {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+}
+
+body > header > #contact {
+    background-color: hsl(60, 100%, 90%);
+    line-height: 1.7em;
+    text-align: right;
+    padding: 5px 10px 5px 0px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+}
+
+article {
+    clear: both;
+    padding: 30px 20px 10px 20px;
+    background-color: hsl(60, 100%, 90%);
+}
+
+article header {
+    margin: 2em auto;
+    width: 70%;
+}
+
+article header h1 {
+    color: black;
+    font-family: "Palatino Linotype", Palatino, "Times New Roman", serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+/*****************************************/
+section.leftColumn {
+    clear: left;
+    float: left;
+    width: 40%;
+    border: 0.5em solid hsl(60, 100%, 90%);
+}
+
+section.leftColumn > figure > img {
+    display: block;
+    width: 100%;
+}
+
+section.leftColumn > figure > img#leftImage {
+    clear: left;
+    float: left;
+    width: 49%;
+}
+
+section.leftColumn > figure > img#rightImage {
+    float: right;
+    width: 49%;
+}
+
+section.leftColumn > figure > img.singleImage {
+    display: block;
+    width: 100%;
+}
+
+section.rightColumn {
+    clear: right;
+    float: right;
+    width: 40%;
+    border: 10px solid hsl(60, 100%, 90%);
+}
+
+section.rightColumn > figure > img {
+    display: block;
+    width: 100%;
+}
+
+figure figcaption {
+    background-color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+img {
+    background-color: white;
+}
+
+section#paragraph {
+    border: 10px;
+}
+
+em {
+    font-weight: bold;
+}
+
+article::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+/* Heading Styles */
+body > header > img {
+    display: block;
+    width: 100%;
+}
+
+/* Horizontal Navigation Styles */
+body > header > nav.horizontalNav li {
+    width: 20%;
+}
+
+nav.horizontalNav li {
+    display: block;
+    float: left;
+}
+
+header > nav.horizontalNav li a {
+    background-color: skyblue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/************************************/
+section#rowNav {
+    clear: left;
+    float: left;
+    width: 100%;
+    border: 2px solid hsl(60, 100%, 90%);
+}
+
+section#rowNav figure {
+    display: block;
+    width: 100%;
+}
+
+section#rowNav > figure > nav.horizontalNav li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+section#rowNav > figure > nav.horizontalNav img {
+    width: 100%;
+}
+
+/* Vertical Navigation Styles */
+
+/* Footer Styles */
+footer {
+    clear: left;
+    display: inline-block;
+    background-color: hsl(0, 100%, 85%);
+    position: relative;
+}

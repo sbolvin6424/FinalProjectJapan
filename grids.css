@@ -1,0 +1,313 @@
+@charset "utf-8";
+
+/*
+    ITD 110 section 002N Fall 2020
+    Final Web Project - State/Country Website
+    Japan
+    Author: Stan Bolvin
+    Date:   11/15/2020
+
+    filename:   grids.css
+    This file is the grid stylesheet for the Final Project-Japan.
+*/
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+h3#space {
+    margin-top: 2em;
+}
+
+h3 {
+    text-align: left;
+    margin-top: 0em;
+    font-size: 1.3em;
+}
+
+/*Grid styles for the Food page food picture images*/
+article section.grid-container {
+    width: 100%;
+    border: 2px solid hsl(60, 100%, 90%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+}
+
+section.grid-container > * {
+    outline: 2px dashed hsl(60, 100%, 90%);
+}
+
+section.grid-container img {
+    margin-bottom: 0.5em;
+    display: block;
+    width: 100%;
+}
+
+section.grid-container > h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+section.grid-container article#item1 {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container article#item2 {
+    grid-row: 1;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container article#item3 {
+    grid-row: 1;
+    grid-column: 3;
+    width: 100%;
+}
+
+section.grid-container article#item4 {
+    grid-row: 1;
+    grid-column: 4;
+    width: 100%;
+}
+
+section.grid-container article#item5 {
+    grid-row: 2;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container article#item6 {
+    grid-row: 2;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container article#item7 {
+    grid-row: 2;
+    grid-column: 3;
+    width: 100%;
+}
+
+section.grid-containerarticle#item8 {
+    grid-row: 2;
+    grid-column: 4;
+    width: 100%;
+}
+
+section.grid-container article#item9 {
+    grid-row: 3;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container article#item10 {
+    grid-row: 3;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container article#item11 {
+    grid-row: 3;
+    grid-column: 3;
+    width: 100%;
+}
+
+section.grid-container article#item12 {
+    grid-row: 3;
+    grid-column: 4;
+    width: 100%;
+}
+
+section.grid-container article#item13 {
+    grid-row: 4;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container article#item14 {
+    grid-row: 4;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container article#item15 {
+    grid-row: 4;
+    grid-column: 3;
+    width: 100%;
+}
+
+section.grid-container article#item16 {
+    grid-row: 4;
+    grid-column: 4;
+    width: 100%;
+}
+
+section.grid-container article#item17 {
+    grid-row: 5;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-containerarticle#item18 {
+    grid-row: 5;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container article#item19 {
+    grid-row: 5;
+    grid-column: 3;
+    width: 100%;
+}
+
+section.grid-container article#item20 {
+    grid-row: 5;
+    grid-column: 4;
+    width: 100%;
+}
+
+/*Grid styles for the Sites page Sites picture images*/
+article section.grid-container5,
+article section.grid-container4,
+article section.grid-container3,
+article section.grid-container2,
+article section.grid-container1 {
+    width: 100%;
+    border: 2px solid hsl(60, 100%, 90%);
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 5px;
+}
+
+section.grid-container5 > *,
+section.grid-container4 > *,
+section.grid-container3 > *,
+section.grid-container2 > *,
+section.grid-container1 > * {
+    outline: 2px dashed hsl(60, 100%, 90%);
+}
+
+section.grid-container5 article.item1 img,
+section.grid-container4 article.item1 img,
+section.grid-container3 article.item1 img,
+section.grid-container2 article.item1 img,
+section.grid-container1 article.item1 img {
+    display: block;
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container5 article.item2,
+section.grid-container4 article.item2,
+section.grid-container3 article.item2,
+section.grid-container2 article.item2,
+section.grid-container1 article.item2 {
+    grid-row: 1;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container5 article.item3 img,
+section.grid-container4 article.item3 img,
+section.grid-container3 article.item3 img,
+section.grid-container2 article.item3 img,
+section.grid-container1 article.item3 img {
+    display: block;
+    grid-row: 2;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container5 article.item4,
+section.grid-container4 article.item4,
+section.grid-container3 article.item4,
+section.grid-container2 article.item4,
+section.grid-container1 article.item4 {
+    grid-row: 2;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container5 article.item5 img,
+section.grid-container3 article.item5 img,
+section.grid-container2 article.item5 img,
+section.grid-container1 article.item5 img {
+    display: block;
+    grid-row: 3;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container5 article.item6,
+section.grid-container3 article.item6,
+section.grid-container2 article.item6,
+section.grid-container1 article.item6 {
+    grid-row: 3;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container3 article.item7 img,
+section.grid-container2 article.item7 img,
+section.grid-container1 article.item7 img {
+    display: block;
+    grid-row: 4;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container3 article.item8,
+section.grid-container2 article.item8,
+section.grid-container1 article.item8 {
+    grid-row: 4;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container2 article.item9 img,
+section.grid-container1 article.item9 img {
+    display: block;
+    grid-row: 5;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container2 article.item10,
+section.grid-container1 article.item10 {
+    grid-row: 5;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container2 article.item11 img {
+    display: block;
+    grid-row: 6;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container2 article.item12 {
+    grid-row: 6;
+    grid-column: 2;
+    width: 100%;
+}
+
+section.grid-container2 article.item13 img {
+    display: block;
+    grid-row: 7;
+    grid-column: 1;
+    width: 100%;
+}
+
+section.grid-container2 article.item14 {
+    grid-row: 7;
+    grid-column: 2;
+    width: 100%;
+}
